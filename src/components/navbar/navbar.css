@@ -1,0 +1,68 @@
+.navbar {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+nav {
+  padding: 1px;
+  background-color: white;
+  box-shadow: 0px 0px 4px -1px;
+}
+nav .navbar-brand img {
+  width: 100px;
+  margin-right: 5px;
+}
+nav .nav-link {
+  color: var(--main);
+  font-size: 17px;
+  font-weight: 500;
+  transition: 0.3s;
+  margin: 0 2px;
+}
+nav .collapse ul li .nav-link.active {
+  color: var(--seced);
+  background-color: #efefef;
+  border-radius: 5px;
+}
+nav .collapse ul li .nav-link:hover {
+  color: var(--seced);
+}
+nav .incos a {
+  color: var(--main);
+  padding: 5px;
+  transition: 0.3s;
+  font-size: 18px;
+  position: relative;
+}
+nav .incos a.user{
+  margin-left: 3px;
+}
+nav .incos a span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #ff7004;
+  color: white;
+  padding: 0px 5px;
+  font-size: 13px;
+  border-radius: 50%;
+}
+nav .incos a:hover,
+nav .incos a.active,
+.nav-link:focus {
+  color: var(--seced);
+}
+nav .navbar-toggler {
+  width: fit-content;
+  font-size: 35px;
+  color: var(--main);
+  font-size: 25px;
+  padding: 2px 5px;
+}
+nav .navbar-toggler:focus {
+  box-shadow: none;
+  outline: none;
+  border: 2px solid var(--main);
+}
+.incos {
+  display: contents;
+}

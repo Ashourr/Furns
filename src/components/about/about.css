@@ -1,0 +1,48 @@
+.about {
+  padding: 70px 0;
+  background-color: var(--main);
+}
+.about h2{
+  text-align: center;
+  color: var(--seced);
+  font-size: 40px;
+}
+.about .pre {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.about .pre p{
+  max-width: 378px;
+  text-align: center;
+  color: #bfbfbf;
+}
+
+.about img {
+  width: 100%;
+  margin: 25px 0;
+}
+.about h5 {
+  color: white;
+  /* margin: 25px 0; */
+  font-size: 25px;
+}
+.about .cont {
+  display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.about .cont p {
+max-width: 400px;
+color: #c3c3c3;
+}
+.aboutheder h2{
+  text-align: center;
+    padding: 100px 0;
+    margin: 0;
+    background: #cfcfcf;
+}
+.aboutheder h2 span{
+  color: var(--seced);
+}

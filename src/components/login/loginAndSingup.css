@@ -1,0 +1,89 @@
+.login,
+.sinup {
+  min-height: calc(100vh - 58px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 10px;
+}
+.sinup{
+  padding: 30px 10px 70px ;
+}
+.login h2,
+.sinup h2 {
+  color: #ff7004;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.login form,
+.sinup form {
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: 1px 1px 11px 0px #737373;
+  width: 400px;
+}
+
+.login form input,
+.sinup form input {
+  width: 100%;
+  border: 1px solid #a1a1a1;
+  outline: none;
+  padding: 7px;
+  margin: 7px 0;
+}
+.login form button,
+.sinup form button {
+  width: 100%;
+  outline: none;
+  padding: 7px;
+  margin: 10px 0;
+  border: none;
+  background: #ff7004;
+  color: white;
+  font-size: 20px;
+  transition: 0.4s;
+}
+.login form button:hover,
+.sinup form button:hover {
+  background-color: var(--main);
+}
+.login form .link,
+.sinup form .link {
+  text-align: center;
+  margin: 10px 0;
+}
+.login form .link a,
+.sinup form .link a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ff7004;
+  transition: 0.4s;
+}
+.login form .link a:hover,
+.sinup form .link a:hover {
+  color: var(--main);
+}
+@media (max-width: 450px) {
+  .login form,
+  .sinup form {
+    width: 350px;
+  }
+}
+@media (max-width: 400px) {
+  .login form,
+  .sinup form {
+    width: 290px;
+  }
+}
+.error {
+  background: #f5b1b1;
+  color: red;
+  width: 100%;
+  display: block;
+  padding: 5px;
+  margin: 5px 0;
+  font-size: 17px;
+    font-weight: 500;
+}

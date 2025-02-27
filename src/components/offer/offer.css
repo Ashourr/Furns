@@ -1,0 +1,34 @@
+.offer {
+  padding: 70px 0;
+  background-color: var(--main);
+}
+.offer .offer1 {
+  background-image: url(../../../public//imges/asset\ 27.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  position: relative;
+  margin: 15px 0 ;
+}
+.offer .offer1 .cont {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translate(0, -50px);
+}
+.offer .offer2 {
+  background-image: url(../../../public//imges/asset\ 28.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  position: relative;
+  margin: 15px 0;
+}
+.offer .offer2 .cont {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translate(0, -50px);
+}

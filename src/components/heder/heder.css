@@ -1,0 +1,60 @@
+.heder {
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 58px);
+  background-color: rgb(231, 231, 231);
+  padding: 50px 0;
+}
+.heder .cont {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.heder .cont h6 {
+color: rgb(71, 71, 71);
+}
+.heder .cont h1 {
+color: rgb(33, 33, 33);
+font-size: 40px;
+margin-bottom: 20px;
+}
+.heder .cont p {
+color: rgb(71, 71, 71);
+max-width: 414px;
+}
+.heder .cont a {
+  display: inline-block;
+  text-align: center;
+  padding: 15px 30px;
+  /* border-radius: 10px; */
+  transition: 0.4s;
+  font-weight: 600;
+  max-width: 150px;
+  color: rgb(255, 255, 255);
+ background-color: var(--seced);
+ text-decoration: none;
+}
+.heder .cont a:hover {
+  background-color: var(--main);
+  color: var(--seced);
+}
+.heder .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heder img {
+  max-width: 400px;
+}
+@media (max-width: 767px) {
+  .heder img {
+    margin-top: 50px;
+    /* max-width: 300px; */
+  }
+}
+@media (max-width: 420px) {
+  .heder img {
+    max-width: 300px;
+  }
+}
+
